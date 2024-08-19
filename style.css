@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: "Open Sans", sans-serif;
+
+    --background-default: #F5F4F0;
+    --border-primary: #D9D9D9;
+
+    --text-primary: #1B1B1B;
+    --text-secundary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #E1624F;
+
+    --accent-blue: #0C51A7;
+    --accent-orange: #E95E10;
+    --accent-pink: #E5245E;
+    --accent-purple: #591B98;
+}
+
+body {
+    padding: 88px 80px;
+}
+
+img {
+    border-radius: 28px;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+}
+
+.section {
+    padding-bottom: 44px;
+    border-bottom: 1px solid var(--border-primary);
+
+    margin-bottom: 72px;
+}
+
+.section h3 {
+    text-transform: uppercase;
+    color: var(--text-headline);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.section h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+main img {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.fig-caption {
+    font-style: italic;
+    text-align: center;
+    font-size: 16px;
+}
+
+.place .list {
+    font-weight: bold;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+footer {
+    font-family: "Alice", serif;
+    text-align: center;
+}
+
+footer img {
+    vertical-align: middle;
+}
+
+footer a {
+    color: black;
+}
